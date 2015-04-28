@@ -1,6 +1,6 @@
-# PhenoCam Installation Tool (PIT)
+# PhenoCam Calibration Tool (PCT)
 
-PhenoCam Calibration Tool (PIT) is a set of scripts for Linux/Mac OSX and Windows taking care of characterizing the colour respons of cameras installed by or associated with the [PhenoCam network](http://phenocam.sr.unh.edu).
+PhenoCam Calibration Tool (PCT) is a set of scripts for Linux/Mac OSX and Windows taking care of characterizing the colour respons of cameras installed by or associated with the [PhenoCam network](http://phenocam.sr.unh.edu).
 
 ## Installation
 
