@@ -1,0 +1,9 @@
+timeout 1000
+open 140.247.98.64
+user anonymous anonymous
+passive
+ascii
+put /dev/video/config0 calibration/netcam_MACADDR_MYEXP_CUSTOMDATE.meta
+binary
+put /dev/video/jpeg0 calibration/netcam_MACADDR_MYEXP_CUSTOMDATE.jpg
+quit
