@@ -2,6 +2,31 @@
 # Upload rapid sequence of images for RGB calibration
 # Koen Hufkens (2015)
 
+
+# set the default time and time zone
+
+# set to EST
+TIMEOFFSET="-5"
+
+# set time zone
+# dump setting to config file
+SIGN=`echo $TIMEOFFSET | cut -c'1'`
+
+if [ "$SIGN" = "+" ]; then
+	echo "UTC$TIMEOFFSET" | sed 's/+/-/g' > /etc/config/TZ
+else
+	echo "UTC$TIMEOFFSET" | sed 's/-/+/g' > /etc/config/TZ
+fi
+
+# export to current clock settings
+export TZ=`cat /etc/config/TZ`
+
+# configure time server
+echo "time.nist.gov" > /etc/config/ntp.server
+
+# update the clock settings
+sh /etc/rc.ntpdate
+
 # set the configuration device
 config="/dev/video/config0"
 
