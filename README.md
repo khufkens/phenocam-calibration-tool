@@ -6,9 +6,9 @@ PhenoCam Calibration Tool (PCT) is a set of scripts for Linux/Mac OSX and Window
 
 clone the project to your home computer using the following command (with git installed)
 
-	git clone https://khufkens@bitbucket.org/khufkens/phenocam-calibration-tool.git
+	git clone https://github.com/khufkens/phenocam-calibration-tool.git
 
-alternatively, download the project using [this link](https://bitbucket.org/khufkens/phenocam-calibration-tool/get/master.zip).
+alternatively, download the project using download button.
 
 Unzip the downloaded files or use the files cloned by git as is.
 
